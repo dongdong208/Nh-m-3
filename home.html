@@ -6,86 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        ul{
+            list-style-type: none; text-align: center;
+            padding: none; display: block; border-style: solid;
+            
+        }
+        li{
+            display: inline-block;
+        }
+        li a{
+            display: block; padding-left: 0px; padding-right: 30px;
+            text-decoration: none;
+        }
         .head{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            min-width: 1024px;
-            margin: auto;
-            width: 100%;
-            height: 60px;
-            position: relative;
-
+            
         }
     </style>
 </head>
 <body>
-    <header class="">
-        <div class="head">
-            <div class="logo-topzone">
-                <a href="/">
-                    <i class="topzone-logo"></i>
-                </a>
-            </div>
-            <ul class="menu">
-                <li class="menu-ip ">
-                    <a href="/iphone">
-                        <span>iPhone</span>
-                    </a>
-                </li>
-                <li class="menu-mac ">
-                    <a href="/mac">
-                        <span>Mac</span>
-                    </a>
-                </li>
-                <li class="menu-ipad ">
-                    <a href="/ipad">
-                        <span>iPad</span>
-                    </a>
-                </li>
-                <li class="menu-watch ">
-                    <a href="/apple-watch">
-                        <span>Watch</span>
-                    </a>
-                </li>
-                <li class="menu-sound ">
-                    <a href="/am-thanh">
-                        <span>Âm thanh</span>
-                    </a>
-                </li>
-                <li class="menu-access ">
-                    <a href="/phu-kien">
-                        <span>Phụ kiện</span>
-                    </a>
-                </li>
-            </ul>
-            <div class="search-cart">
-                <div class="search-sp">
-                    <i class="topzone-search"></i>
-                </div>
-                <a href="/cart" class="cart">
-                    <i class="topzone-cart"></i>
-                </a>
-                <div class="view-cart">
-                    <i class="topzone-cohang"></i>
-                    <span>Đã thêm sản phẩm vào giỏ hàng</span>
-                    <a href="/cart">Xem giỏ hàng</a>
-                </div>
-            </div>
-            <form class="form-search" onsubmit="return false;">
-                <div class="click-search">
-                    <i class="topzone-search"></i>
-                    <input type="text" placeholder="Tìm kiếm sản phẩm">
-                    <i class="topzone-delSearch"></i>
-                </div>
-                <button type="submit" class="submit-search" style="display:none">
-                </button>
-                <div class="sg-search">
-                </div>
-            </form>
+   <header>
+    <div class="head">
+        <div class="logotopzone">
+            <a href="#"></a>
+            <a href="#"></a>
         </div>
-    </header>
-    <h1>Hello cac anh</h1>
+        <ul class="menu">
+            <li class="ip">
+                <a href="#ip"><span>Iphone</span></a>
+            </li>
+            <li>
+                <a href="#mac"><span>Mac</span></a>
+            </li>
+            <li>
+                <a href="#ipad"><span>Ipad</span></a>
+            </li>
+            <li>
+                <a href="#watch"><span>Watch</span></a>
+            </li>
+            <li>
+                <a href="#sound"><span>ÂmThanh</span></a>
+            </li>
+            <li>
+                <a href="#access"><span>PhụKiện</span></a>
+            </li>
+        </ul>
+        
+   </header>
+
 </body>
 </html>
